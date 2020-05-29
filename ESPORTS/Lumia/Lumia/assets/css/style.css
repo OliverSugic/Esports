@@ -1,10 +1,3 @@
-/**
-* Template Name: Lumia - v2.0.0
-* Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -480,7 +473,7 @@ section {
 }
 
 .what-we-do .icon-box .icon i {
-  color: #3498db;
+  color: #3495db;
   font-size: 28px;
 }
 
@@ -1399,4 +1392,7 @@ section {
   background: #5faee3;
   color: #fff;
   text-decoration: none;
+}
+.patten-games{
+   list-style-image: url('/ESPORTS/Lumia/Lumia/assets/img/point.png');
 }
