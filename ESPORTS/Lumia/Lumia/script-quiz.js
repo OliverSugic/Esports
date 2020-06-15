@@ -27,10 +27,10 @@ function startGame() {
 
 function setNextQuestion(){
   resetState()
-  showNextQuestion(shuffeldQuestion[currentQuestionIndex])
+  showQuestion(shuffeldQuestion[currentQuestionIndex])
 }
 
-function showNextQuestion(question){
+function showQuestion(question){
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
     const button = document.createElement('button')
@@ -41,7 +41,6 @@ function showNextQuestion(question){
     }
     button.addEventListener('click',selectAnswser)
     answerButtonsElement.appendChild(button)
-
   });
 }
 
@@ -63,6 +62,8 @@ function selectAnswser(e){
   if(shuffeldQuestion.length > currentQuestionIndex + 1){
     nextButton.classList.remove('hide')
   }else{
+    const homeButton = document.getElementById('home-btn')
+    homeButton.classList.remove('hide')
     startbutton.innerText = 'Restart'
     startbutton.classList.remove('hide')
   }
@@ -88,17 +89,18 @@ const question = [
     question: 'Whats this page about ?',
     answers: [
     {text: 'Esports', correct: true},
-    {text: 'Soccer', correct: false},
+    {text: 'Communication', correct: false},
     {text: 'Cars', correct: false},
     {text: 'Tetris', correct: false}
-    ],
-
+    ]
+  },
+  {
     question: 'Whats the main event of the year ?',
     answers: [
-    {text: 'CSGO Major', correct: true},
     {text: 'VALORANT', correct: false},
+    {text: 'CSGO Major', correct: true},
     {text: 'Rocket League', correct: false},
     {text: 'War Thunder', correct: false}
     ]
-  }
+  } 
 ]
