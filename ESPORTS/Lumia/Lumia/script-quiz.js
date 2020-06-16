@@ -85,7 +85,7 @@ function clearStatusClass(element){
 } 
 
 const question = [
-  {
+  {//1
     question: 'Whats this page about ?',
     answers: [
     {text: 'Esports', correct: true},
@@ -94,13 +94,130 @@ const question = [
     {text: 'Tetris', correct: false}
     ]
   },
-  {
-    question: 'Whats the main event of the year ?',
+  {//2
+    question: 'Whats a main event of the year ?',
     answers: [
-    {text: 'VALORANT', correct: false},
+    {text: 'League of Legends', correct: false},
     {text: 'CSGO Major', correct: true},
     {text: 'Rocket League', correct: false},
     {text: 'War Thunder', correct: false}
     ]
-  } 
+  },
+  {//3
+  question: 'Which game requires only one player per team',
+    answers: [
+    {text: 'Dota', correct: false},
+    {text: 'CSGO', correct: false},
+    {text: 'Rocket League', correct: false},
+    {text: 'Starcraft', correct: true}
+    ]
+  },
+  {//4
+  question: 'What game has the biggest price pool?',
+    answers: [
+    {text: 'Dota', correct: true},
+    {text: 'Fortnite', correct: false},
+    {text: 'League of Legends', correct: false},
+    {text: 'Starcraft', correct: false}
+    ]
+  },
+  {//5
+  question: 'Who is the best CSGO player ?',
+    answers: [
+    {text: 'Shroud', correct: false},
+    {text: 'Dev1ce', correct: false},
+    {text: 'S1mple', correct: true},
+    {text: 'flusha', correct: false}
+    ]
+  },
+  {//6
+  question: 'Which of the following teams does Not have a CSGO Team',
+    answers: [
+    {text: 'TSM', correct: false},
+    {text: 'C9', correct: false},
+    {text: 'Misfits', correct: true},
+    {text: 'Fnatic', correct: false}
+    ]
+  },
+  {//7
+  question: 'What game is not a FPS',
+    answers: [
+    {text: 'Valorant', correct: false},
+    {text: 'CSGO', correct: false},
+    {text: 'Rainbow Six Siege', correct: false},
+    {text: 'Starcraft', correct: true}
+    ]
+  },
+  {//8
+  question: 'What Team won 4 CS Majors in a row',
+    answers: [
+    {text: 'NaVi', correct: false},
+    {text: 'Cloud9', correct: false},
+    {text: 'Astralis', correct: true},
+    {text: 'Tyloo', correct: true}
+    ]
+  },
+  {//9
+  question: 'Who is known being the best mid laner in League of Legends',
+    answers: [
+    {text: 'Bjergsen', correct: false},
+    {text: 'Faker', correct: true},
+    {text: 'xPeke', correct: false},
+    {text: 'Caps', correct: false}
+    ]
+  },
+  {// 10
+  question: 'Which team won games by trolling in League of Legends ',
+    answers: [
+    {text: 'G2 Esports', correct: true},
+    {text: 'TSM', correct: false},
+    {text: 'FNATIC', correct: false},
+    {text: 'FunPlusPheonix', correct: false}
+    ]
+  },
+  {//11
+  question: 'Which team was the first Amarican team who won the CSGO Major ',
+    answers: [
+    {text: 'FaZe', correct: false},
+    {text: 'Cloud9', correct: true},
+    {text: 'TSM', correct: false},
+    {text: 'Team Liquid', correct: false}
+    ]
+  },
+  {//12
+  question: 'in what land was the win of ENCE showcased in local TV',
+    answers: [
+    {text: 'Swedish', correct: false},
+    {text: 'Densk', correct: false},
+    {text: 'Finnish', correct: true},
+    {text: 'Holland', correct: false}
+    ]
+  },
+  {//13
+  question: 'Who got banned for cheating with Word.exe in CSGO',
+    answers: [
+    {text: 'Forsaken', correct: false},
+    {text: 'Pasha', correct: false},
+    {text: 'flusha', correct: false},
+    {text: 'KQLY', correct: true}
+    ]
+  },
+  {//14
+  question: 'Which CSGO has the biggest biceps',
+    answers: [
+    {text: 'fREAKAZOiD', correct: false},
+    {text: 'Pasha Biceps', correct: true},
+    {text: 'flusha', correct: false},
+    {text: 'blameF', correct: false}
+    ]
+  },
+  {//15
+  question: 'Which game had the first BattleRoyale mode',
+    answers: [
+    {text: 'Fortnite', correct: false},
+    {text: 'The Culling', correct: false},
+    {text: 'PUBG', correct: false},
+    {text: 'Minecraft', correct: true}
+    ]
+  }
 ]
