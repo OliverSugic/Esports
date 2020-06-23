@@ -109,7 +109,7 @@ const question = [
     {text: 'Dota', correct: false},
     {text: 'CSGO', correct: false},
     {text: 'Rocket League', correct: false},
-    {text: 'Starcraft', correct: true}
+    {text: 'Hearthstone', correct: true}
     ]
   },
   {//4
@@ -151,10 +151,10 @@ const question = [
   {//8
   question: 'What Team won 4 CS Majors in a row',
     answers: [
+    {text: 'Astralis', correct: true},
     {text: 'NaVi', correct: false},
     {text: 'Cloud9', correct: false},
-    {text: 'Astralis', correct: true},
-    {text: 'Tyloo', correct: true}
+    {text: 'Tyloo', correct: false}
     ]
   },
   {//9
@@ -196,10 +196,10 @@ const question = [
   {//13
   question: 'Who got banned for cheating with Word.exe in CSGO',
     answers: [
-    {text: 'Forsaken', correct: false},
+    {text: 'Forsaken', correct: true},
     {text: 'Pasha', correct: false},
     {text: 'flusha', correct: false},
-    {text: 'KQLY', correct: true}
+    {text: 'KQLY', correct: false}
     ]
   },
   {//14
